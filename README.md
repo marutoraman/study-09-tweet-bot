@@ -1,8 +1,9 @@
 # Amazonの在庫をチェックして、在庫があった場合にツイートするボットを作成します
 なお、処理は極力クラス化して、クラス外への記述は最小限にしてください。<BR>
 設定ファイルは.envファイルとして管理して、load_dotenvを使って呼び出すようにしてください。<BR>
-seleniumは使用せずにrequestsモジュールを使用してください。
-
+seleniumは使用せずにtweepyモジュールを使用してください。
+https://tech-blog.rakus.co.jp/entry/20201106/api
+  
 ## １
 TwitterAPIキーを取得してください<BR>
 https://www.itti.jp/web-direction/how-to-apply-for-twitter-api/
